@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,36 +25,39 @@
         </ul>
     </nav>
 </header>
-    <main id="mainPro" >
-        <section class="pro">
-            <div class="pro__heroa"></div>
-            <div class="pro__hero">
+    <main>
+        <div>
+            <h2 class="titulo" data-aos="fade-down" data-aos-duration="1500">Proyectos</h2>
+        </div>
+        <div id="proGeneral" >
+            <section class="pro" data-aos="fade-left" data-aos-once="true" data-aos-delay="50" > 
+                <div class="pro__heroa"></div>
+                <div class="pro__hero">
                     <p class="pro__sub">Web Desing Membresias/></p>
                     <h2 class="pro__titulo">Chris Ortellado</h2>
                     <p class="pro__par"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus sed dolor, veritatis a labore magnam totam sapiente sequi neque molestiae deleniti dolorum. Expedita eius aspernatur molestias voluptates! Veniam, fugit.</span></p>
                     <a class="btna" href="https://chrisortellado.com">Ver página</a>
-            </div>
-        </section>
-        <section class="pro">
-            <div class="pro__herob">
-            </div>
-            <div class="pro__hero">
-                <p class="pro__sub">Web Desing Tienda/></p>
-                <h2 class="pro__titulo">Balcan Beer</h2>
-                <p class="pro__par"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus sed dolor, veritatis a labore magnam totam sapiente sequi neque molestiae deleniti dolorum. Expedita eius aspernatur molestias voluptates! Veniam, fugit.</span></p>
-                <a class="btna" href="https://balcan.com.ar">Ver página</a>
-            </div>
-        </section>
-        <section class="pro">
-        <div class="pro__heroc">
+                </div>
+            </section>
+            <section class="pro" data-aos="fade-right" data-aos-once="true" data-aos-delay="500" >
+                <div class="pro__herob"></div>
+                <div class="pro__hero">
+                    <p class="pro__sub">Web Desing Tienda/></p>
+                    <h2 class="pro__titulo">Balcan Beer</h2>
+                    <p class="pro__par"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus sed dolor, veritatis a labore magnam totam sapiente sequi neque molestiae deleniti dolorum. Expedita eius aspernatur molestias voluptates! Veniam, fugit.</span></p>
+                    <a class="btna" href="https://balcan.com.ar">Ver página</a>
+                </div>
+            </section>
+            <section class="pro" data-aos="fade-left" data-aos-once="true" data-aos-delay="50">
+                <div class="pro__heroc"></div>
+                <div class="pro__hero">
+                    <p class="pro__sub">Web Desing Constructora/></p>
+                    <h2 class="pro__titulo">Dreamers DC</h2>
+                    <p class="pro__par"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus sed dolor, veritatis a labore magnam totam sapiente sequi neque molestiae deleniti dolorum. Expedita eius aspernatur molestias voluptates! Veniam, fugit.</span></p>
+                    <a class="btna" href="https://dreamersdc.com">Ver página</a>
+                </div>
+            </section>
         </div>
-        <div class="pro__hero">
-            <p class="pro__sub">Web Desing Constructora/></p>
-            <h2 class="pro__titulo">Dreamers DC</h2>
-            <p class="pro__par"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis doloribus sed dolor, veritatis a labore magnam totam sapiente sequi neque molestiae deleniti dolorum. Expedita eius aspernatur molestias voluptates! Veniam, fugit.</span></p>
-            <a class="btna" href="https://dreamersdc.com">Ver página</a>
-        </div>
-        </section>
     </main>
         <!--
     FOOTER
@@ -72,5 +76,11 @@
         </ul>
     </div>
 </footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>

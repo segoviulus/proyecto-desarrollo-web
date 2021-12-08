@@ -19,12 +19,12 @@ BOTONES
 .btnb{
     font-family:  'Jost', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1 rem;
     margin-top: 25px;
-    padding: 10px 30px;
+    padding: 10px 25px;
     border: none;
-    background-color: #040229;
-    color: #fff;
+    background-color: #fff;
+    color: #040229;
 }
 
 .btnw{
@@ -111,7 +111,6 @@ header{
 .header__menu{
     display: flex;
     list-style: none;
-    box-shadow: 0px 0px 32px 0px;
 }
 
 .header__link{
@@ -120,7 +119,7 @@ header{
     text-decoration: none;
     font-family:  'Jost', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1rem;
     text-transform: uppercase;
 }
 
@@ -129,7 +128,7 @@ FOOTER
 */
 
 footer{
-    background-color: #040229;
+    background-image: linear-gradient(to left, #040229, #20034e);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -176,9 +175,7 @@ HERO
 .hero{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-image: url(../img/bghomehero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: linear-gradient(to left, #040229, #20034e);
     height: 100vh;
     padding: 0px 30px 0px 30px;
     place-items: center;
@@ -190,6 +187,7 @@ HERO
 
 .hero__contenedorred{
     justify-self: end;
+
 }
 
 .hero__titulo{
@@ -210,7 +208,7 @@ HERO
 
 .hero__redes{
     list-style: none;
-    font-family:  'Jost', sans-serif;
+    font-family: 'Jost', sans-serif;
     font-weight: 400;
     font-size: 1rem;
 }
@@ -251,8 +249,6 @@ ME HOME
 TARJETAS PROYECTOS HOME
 */
 
-
-
 .tarjeta__div{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -267,7 +263,7 @@ TARJETAS PROYECTOS HOME
 }
 
 .tarjeta__textos{
-    background-color: #240555;
+    background-image: linear-gradient(to left, #040229, #20034e);
     padding: 10px 0px 10px 7px;
     color: #fff;
 }
@@ -286,14 +282,14 @@ TARJETAS PROYECTOS HOME
 
 .bntb__enlace{
     text-decoration: none;
-    color: #fff;
+    color: #040229;
 }
 
 /*
 PROYECTOS
 */
 
-#mainPro{
+#proGeneral{
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     row-gap: 25px;
