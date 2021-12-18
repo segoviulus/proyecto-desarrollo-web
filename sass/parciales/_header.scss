@@ -1,0 +1,17 @@
+.header {
+    background-image: linear-gradient(to left, $color-ppal , $color-secu);
+    padding: 10px 30px 10px 30px;
+    &__img {
+    height: 55px; }
+    &__link {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: uppercase;
+    &:hover {
+    color: $color-hover ; }
+    }
+}
+

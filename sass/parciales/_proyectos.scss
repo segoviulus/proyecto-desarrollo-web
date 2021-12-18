@@ -1,0 +1,42 @@
+.tarjeta {
+    background-image: linear-gradient(to left, #040229, #20034e);
+    padding: 10px 0px 10px 15px;
+    color: #fff;
+    &__mar {
+    margin: 25px 30px 50px 30px; }
+    &__titulo {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem; }
+    &__descripcion {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1rem; }
+    }
+
+  .pro {
+    height: 100%;
+    background-color: black;
+    padding: 30px 30px;
+    &__sub {
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    text-transform: uppercase; }
+    &__titulo {
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-align: left; }
+    &__par {
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 50px; }
+    }

@@ -1,0 +1,8 @@
+.foo__link {
+    margin: 0px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:hover {
+    color: magenta; }
+  }
