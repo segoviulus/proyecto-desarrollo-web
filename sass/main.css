@@ -1,6 +1,9 @@
 /*
 COLORES
 */
+/*
+FONT FAMILY
+*/
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;600&display=swap");
 * {
   margin: 0;
@@ -22,7 +25,7 @@ COLORES
 .header__link {
   color: #fff;
   text-decoration: none;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: uppercase;
@@ -43,8 +46,13 @@ COLORES
   color: magenta;
 }
 
-.btnb {
-  font-family: 'Jost', sans-serif;
+.btnb:hover, .btnw:hover {
+  background-color: #040229;
+  color: #fff;
+}
+
+.btnb, .btnw {
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 1 rem;
   padding: 7px 15px;
@@ -53,56 +61,46 @@ COLORES
   color: #040229;
 }
 
+.btnb:hover, .btnw:hover {
+  cursor: pointer;
+}
+
 .btnw {
-  width: 150px;
-  background-color: #fff;
-  color: #040229;
-  padding: 10px 10px;
-  margin: 10px 0px 10px 10px;
-  display: block;
-  text-align: center;
+  background-color: #040229;
+  color: #fff;
 }
 
-.btna {
-  display: inline-block;
-  background: #fff;
-  color: #000;
-  text-align: center;
-  padding: 10px 30px;
-  text-decoration: none;
-  font-family: 'jost', sans-serif;
-}
-
-.btna:hover {
-  background: #DDD;
-  color: #000;
+.btnw:hover {
+  background-color: magenta;
+  color: #fff;
+  cursor: pointer;
 }
 
 .titulo {
+  font-family: "Jost", sans-serif;
   color: #040229;
-  font-family: 'Jost', sans-serif;
+  text-align: center;
   font-weight: 600;
   font-size: 3rem;
-  text-align: center;
   margin-top: 50px;
 }
 
 .sub {
+  font-family: "Jost", sans-serif;
   color: #040229;
-  font-family: 'Jost', sans-serif;
+  text-align: center;
   font-weight: 400;
   font-size: 1.4rem;
-  text-align: center;
   margin-top: 5px;
   padding: 0px 30px 0px 30px;
 }
 
 .par {
+  font-family: "Jost", sans-serif;
   color: #040229;
-  font-family: 'Jost', sans-serif;
+  text-align: center;
   font-weight: 400;
   font-size: 1rem;
-  text-align: center;
   padding: 0px 30px 0px 30px;
 }
 
@@ -121,14 +119,14 @@ COLORES
 
 .hero__titulo {
   color: #fff;
-  font-family: 'Jost', sans-serif;
-  font-weight: 500;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
   font-size: 4.5rem;
 }
 
 .hero__sub {
   color: #fff;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 200;
   font-size: 1.4rem;
   margin-top: -15px;
@@ -136,7 +134,7 @@ COLORES
 
 .hero__redes {
   list-style: none;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
@@ -160,7 +158,7 @@ COLORES
 
 .me__par {
   color: #040229;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-align: center;
@@ -179,46 +177,46 @@ COLORES
 }
 
 .tarjeta__titulo {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 600;
   font-size: 1.2rem;
 }
 
 .tarjeta__descripcion {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
 
 .pro {
   height: 100%;
-  background-color: black;
+  background-color: #000;
   padding: 30px 30px;
 }
 
 .pro__sub {
-  color: #fff;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
   text-align: left;
+  color: #fff;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
 .pro__titulo {
-  color: #fff;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
-  font-size: 2.5rem;
   text-align: left;
+  font-size: 2.5rem;
+  color: #fff;
 }
 
 .pro__par {
-  color: #fff;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
   text-align: left;
+  color: #fff;
+  font-size: 1rem;
   padding-top: 5px;
   padding-bottom: 50px;
 }
@@ -228,25 +226,25 @@ COLORES
 }
 
 .servicio__sub {
-  color: #fff;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
-  font-size: 1.4rem;
   text-align: right;
+  color: #fff;
+  font-size: 1.4rem;
   padding: 30px 30px 0px 0px;
 }
 
 .servicio__par {
-  color: #fff;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
-  font-size: 1rem;
   text-align: right;
+  color: #fff;
+  font-size: 1rem;
   padding-right: 30px;
 }
 
 .form-label {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 1.1rem;
   color: #040229;

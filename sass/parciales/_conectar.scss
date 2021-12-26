@@ -1,8 +1,8 @@
 .form-label {
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    font-family: $font;
+    font-weight: $font-400;
     font-size: 1.1rem;
-    color: #040229;
+    color: $color-ppal;
     margin-bottom: 5px; }
   
   .map {

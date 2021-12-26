@@ -1,24 +1,25 @@
-.titulo {
-    color: #040229;
-    font-family: 'Jost', sans-serif;
-    font-weight: 600;
-    font-size: 3rem;
+@mixin font {
+    font-family: $font;
+    color: $color-ppal;
     text-align: center;
+
+}
+
+.titulo {
+    @include font;
+    font-weight: $font-600;
+    font-size: 3rem;
     margin-top: 50px; }
   
 .sub {
-    color: #040229;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    @include font;
+    font-weight: $font-400;
     font-size: 1.4rem;
-    text-align: center;
     margin-top: 5px;
     padding: 0px 30px 0px 30px; }
   
 .par {
-    color: #040229;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    @include font;
+    font-weight: $font-400;
     font-size: 1rem;
-    text-align: center;
     padding: 0px 30px 0px 30px; }  

@@ -1,42 +1,42 @@
+@mixin pro-font {
+  font-family: $font;
+  font-weight: 400;
+  text-align: left;
+}
+
 .tarjeta {
-    background-image: linear-gradient(to left, #040229, #20034e);
+    background-image: linear-gradient(to left, $color-ppal, $color-secu);
     padding: 10px 0px 10px 15px;
-    color: #fff;
+    color: $color-light;
     &__mar {
     margin: 25px 30px 50px 30px; }
     &__titulo {
-    font-family: 'Jost', sans-serif;
-    font-weight: 600;
+    font-family: $font;
+    font-weight: $font-600;
     font-size: 1.2rem; }
     &__descripcion {
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    font-family: $font;
+    font-weight: $font-400;
     font-size: 1rem; }
     }
 
   .pro {
     height: 100%;
-    background-color: black;
+    background-color: $color-dark;
     padding: 30px 30px;
     &__sub {
-    color: #fff;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    @include pro-font;
+    color: $color-light;
     font-size: 1rem;
-    text-align: left;
     text-transform: uppercase; }
     &__titulo {
-    color: #fff;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    @include pro-font;
     font-size: 2.5rem;
-    text-align: left; }
+    color: $color-light;}
     &__par {
-    color: #fff;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    @include pro-font;
+    color: $color-light;
     font-size: 1rem;
-    text-align: left;
     padding-top: 5px;
     padding-bottom: 50px; }
     }

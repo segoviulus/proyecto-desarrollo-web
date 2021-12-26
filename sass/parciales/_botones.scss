@@ -1,30 +1,28 @@
+%color-inverso{
+  background-color: $color-ppal;
+  color: $color-light;
+}
+
 .btnb {
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    font-family: $font;
+    font-weight: $font-400;
     font-size: 1 rem;
     padding: 7px 15px;
     border: none;
-    background-color: #fff;
-    color: #040229; }
+    background-color: $color-light;
+    color: $color-ppal; }
+
+.btnb:hover {
+  @extend %color-inverso;
+  cursor: pointer; }
   
-  .btnw {
-    width: 150px;
-    background-color: #fff;
-    color: #040229;
-    padding: 10px 10px;
-    margin: 10px 0px 10px 10px;
-    display: block;
-    text-align: center; }
+.btnw {
+  @extend .btnb;
+  background-color: $color-ppal;
+  color: $color-light; }
+
+.btnw:hover {
+  background-color: $color-hover;
+  color: $color-light;
+  cursor: pointer;}
   
-  .btna {
-    display: inline-block;
-    background: #fff;
-    color: #000;
-    text-align: center;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-family: 'jost', sans-serif; }
-  
-  .btna:hover {
-    background: #DDD;
-    color: #000; }

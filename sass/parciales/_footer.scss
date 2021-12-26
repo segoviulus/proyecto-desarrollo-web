@@ -1,8 +1,8 @@
 .foo__link {
     margin: 0px 10px;
-    color: #fff;
+    color: $color-light;
     text-decoration: none;
     text-transform: uppercase;
     &:hover {
-    color: magenta; }
+    color: $color-hover; }
   }

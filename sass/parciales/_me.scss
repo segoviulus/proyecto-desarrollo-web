@@ -4,9 +4,9 @@
     height: 105px;
     border-radius: 50%; }
     &__par {
-    color: #040229;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    color: $color-ppal;
+    font-family: $font;
+    font-weight: $font-400;
     font-size: 1rem;
     text-align: center;
     margin-top: 5px; }

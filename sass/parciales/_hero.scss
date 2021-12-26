@@ -1,33 +1,33 @@
 .hero {
     background-size: contain;
-    background-image: url(../img/bghomehero_1.png), linear-gradient(to left, #040229, #20034e);
+    background-image: url(../img/bghomehero_1.png), linear-gradient(to left, $color-ppal, $color-secu);
     background-repeat: no-repeat;
     background-position: center;
     padding: 0px 30px 0px 30px;
     &__contenedor {
     height: 100vh; }
     &__titulo {
-    color: #fff;
-    font-family: 'Jost', sans-serif;
-    font-weight: 500;
+    color: $color-light;
+    font-family: $font;
+    font-weight: $font-600;
     font-size: 4.5rem; }
     &__sub {
-    color: #fff;
-    font-family: 'Jost', sans-serif;
-    font-weight: 200;
+    color: $color-light;
+    font-family: $font;
+    font-weight: $font-200;
     font-size: 1.4rem;
     margin-top: -15px; }
     &__redes {
     list-style: none;
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
+    font-family: $font;
+    font-weight: $font-400;
     font-size: 1rem; }
     &__link {
     margin: 0px 10px;
-    color: #fff;
+    color: $color-light;
     text-decoration: none;
     text-transform: uppercase; 
     &:hover {
-    color: magenta; }
+    color: $color-hover; }
     }
 }
